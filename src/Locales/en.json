@@ -1,0 +1,20 @@
+{
+    "welcome": "Welcome",
+    "language": "Language",
+    "submit": "Submit",
+    "logout": "Log out",
+    "profile": "Profile",
+    "lightmode" : "Light Mode",
+    "darkmode" : "Dark Mode", 
+    "dashboard" : "Overview",
+    "today" : "Today",
+    "thisMonth" : "This Month",
+    "thisYear" : "This Year",
+    "temperature" : "Temperature",
+    "energySolar" : "Solar Energy",
+    "energyGrid"  : "Grid Energy",
+    "cellTemp" : "Cell Temp",
+    "radiation" : "Irradiance",
+    "windSpeed" : "Win Speed"
+  }
+  

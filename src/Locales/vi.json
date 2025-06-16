@@ -1,0 +1,17 @@
+{
+    "welcome": "Chào mừng",
+    "language": "Ngôn ngữ",
+    "submit": "Gửi",
+    "logout": "Đăng xuất",
+    "profile": "Hồ sơ",
+    "lightmode" : "Sáng",
+    "darkmode" : "Tối",
+    "dashboard" : "Trang chủ",
+    "today" : "Hôm nay",
+    "thisMonth" : "Tháng này",
+    "thisYear" : "Năm này",
+    "temperature" : "Nhiệt độ",
+    "energySolar" : "Điện năng tạo ra",
+    "energyGrid"  : "Điện năng hòa lưới"
+  }
+  
