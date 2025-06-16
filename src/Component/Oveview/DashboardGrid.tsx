@@ -46,7 +46,7 @@ const DashboardGrid: React.FC<DashboardGridProps> = ({ machines }) => {
       style={{ maxHeight: '100vh' }}
     >
       {machines.map((machine) => (
-        <div key={machine.id} className="flex flex-col gap-2 flex flex-col h-full">
+        <div key={machine.id} className="flex flex-col gap-2  h-full">
        
           <MachineCard machine={machine} />
         </div>

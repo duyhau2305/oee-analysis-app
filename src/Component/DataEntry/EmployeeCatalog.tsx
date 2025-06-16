@@ -163,9 +163,10 @@ const EmployeeCatalog: React.FC = () => {
   };
 
   return (
-    <div className="p-4  shadow-md rounded-md">
-      <Breadcrumb />
-      <div className="flex items-center gap-2 mb-4">
+    <div className="p-4 font-[Open_Sans]  shadow-md rounded-md bg-white dark:bg-[#0D2743]">
+     <div> <span className=" rounded-lg text-xl mb-4">Entry your employee information</span></div>
+      <hr />
+      <div className="flex items-center gap-2 mb-4 mt-2">
         <SearchButton
           placeholder="Tìm kiếm mã nhân viên, tên nhân viên..."
           onSearch={handleSearch}
@@ -179,7 +180,7 @@ const EmployeeCatalog: React.FC = () => {
 
       <table className="min-w-full bg-white border border-gray-200">
         <thead>
-          <tr className="bg-gray-100">
+        <tr className="bg-gray-200 dark:bg-gray-800">
             <th className="border px-4 py-2 text-xs">STT</th>
             <th className="border px-4 py-2 text-xs">Mã Nhân Viên</th>
             <th className="border px-4 py-2 text-xs">Tên Nhân Viên</th>

@@ -17,7 +17,7 @@ const tabComponents: Record<string, React.ReactNode> = {
     "Khu vực": <AreaSetting />,
     "Thiết bị": <DeviceSetting />,
     "Nguyên nhân dừng máy": <ErrorReportCatalog />,
-    "Ca làm việc": <span>aaa</span>,
+    "Ca làm việc": <span className="text-gray-700 dark:text-gray-300">aaa</span>,
     "Nhân viên": <EmployeeCatalog />
   };
   

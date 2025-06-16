@@ -61,7 +61,7 @@ const Dashboard1: React.FC = () => {
   }, [selectedArea]);
 
   return (
-    <div className="w-full h-full relative bg-gray-100 p-2 overflow-auto">
+    <div className="w-full h-full relative bg-gray-100 dark:bg-[#0D2743] p-2 overflow-auto">
       <div className="flex justify-end items-center mb-4 px-1">
         <div className="relative flex justify-end items-center space-x-2">
           <button className="bg-white border border-gray-300 rounded-lg py-2 px-4 leading-tight text-gray-800">

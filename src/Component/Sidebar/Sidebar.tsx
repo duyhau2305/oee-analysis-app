@@ -94,14 +94,14 @@ const Sidebar: React.FC<SidebarProps> = ({ isCollapsed, setIsCollapsed }) => {
             )}
           </Link>
           <Link 
-            to="/DiCore/oee/availablerate" 
-            className={`flex items-center ${isActive('/DiCore/oee/availablerate') ? '!text-blue-500 font-bold' : 'text-gray-700'} hover:text-blue-500`}
+            to="/DiCore/oee/available-rate" 
+            className={`flex items-center ${isActive('/DiCore/oee/available-rate') ? '!text-blue-500 font-bold' : 'text-gray-700'} hover:text-blue-500`}
           >
             <FiPercent
-              className={`mr-4 text-lg ${isActive('/DiCore/oee/availablerate') ? '!text-blue-500 font-bold' : 'text-gray-500'} dark:text-white`}
+              className={`mr-4 text-lg ${isActive('/DiCore/oee/available-rate') ? '!text-blue-500 font-bold' : 'text-gray-500'} dark:text-white`}
             />
             {!isCollapsed && (
-              <span className={`${isActive('/DiCore/oee/availablerate') ? '!text-blue-500 font-bold' : 'text-gray-500'} dark:text-white`}>
+              <span className={`${isActive('/DiCore/oee/available-rate') ? '!text-blue-500 font-bold' : 'text-gray-500'} dark:text-white`}>
                 Availablerate
               </span>
             )}
